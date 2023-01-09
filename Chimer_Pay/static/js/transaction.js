@@ -23,9 +23,11 @@ function get_send_parameters(accounts,send_to,send_value) {
 
 
 
-function SendEth(accounts) {
+async function SendEth(accounts) {
 
     send_to = document.getElementsByName("to_address")[0].value;
+
+    await get_chain_id();
 
     $.ajax({
         type: "POST",
