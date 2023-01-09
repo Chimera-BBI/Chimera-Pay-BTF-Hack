@@ -1,0 +1,13 @@
+cognito:
+  client_id: ""
+  region_name: 'us-east-1'
+  # used in login module
+aws-pool:
+  host: ""
+  port: ""
+  database: ""
+  user: ""
+  password: ""
+coin-base-api:
+  user: ""
+  key: ""
