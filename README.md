@@ -1,3 +1,5 @@
+# Default OTP for testing
+- opensesame
 # Chimera-Pay-BTF-Hack
 This reop is for submission for the Build the future hack
 
@@ -22,3 +24,4 @@ Product features:
 5. Send ETH to registered mobile phone numbers.
 6. Send stablecoin (USDC) to registered mobile phone numbers (currently under development).
 7. View transactions (currently under development).
+
