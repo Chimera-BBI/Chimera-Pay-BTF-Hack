@@ -1,5 +1,11 @@
 # Default OTP for testing
 - opensesame
+
+# Docker Execution
+You can run the followinf code to host application in docker 
+- docker build --progress=plain -f "./Dockerfile" -t chimera_app .;
+- docker run -e TZ=UTC+5:30 -d --restart=always  -p 80:3000 --name private-chimera-pay chimera_app "python3" "app.py"
+
 # Chimera-Pay-BTF-Hack
 This reop is for submission for the Build the future hack
 
